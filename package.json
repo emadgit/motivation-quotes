@@ -1,6 +1,6 @@
 {
   "name": "motivation-quotes",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generate short, punchy motivational quotes",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
