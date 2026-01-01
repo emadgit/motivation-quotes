@@ -3,7 +3,7 @@
 A tiny TypeScript-first npm library that generates **short, punchy motivational quotes**.  
 No essays. No fluff. Just momentum.
 
-![iban-tools Banner](https://github.com/emadgit/ibanify/blob/main/img/motivation.png)
+![iban-tools Banner](https://github.com/emadgit/motivation-quotes/blob/main/img/motivation.png?raw=true)
 
 Each quote is **one line**, sometimes **two**, never more.
 
