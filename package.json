@@ -1,0 +1,42 @@
+{
+  "name": "motivation-quotes",
+  "version": "1.0.0",
+  "description": "Generate short, punchy motivational quotes",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "motivation",
+    "quotes",
+    "inspiration",
+    "productivity"
+  ],
+  "author": "Emad Dehnavi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emadgit/motivation-quotes.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/emadgit/motivation-quotes/issues"
+  },
+  "homepage": "https://github.com/emadgit/motivation-quotes#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
